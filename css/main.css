@@ -1,0 +1,171 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+   height:100%;
+   position:relative;
+}
+
+
+@font-face {
+    font-family: ever_afterregular;
+    src: url("../fonts/ever_after_font/everafte-webfont.eot");
+    src: url('../fonts/ever_after_font/everafte-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ever_after_font/everafte-webfont.woff2') format('woff2'),
+         url('../fonts/ever_after_font/everafte-webfont.woff') format('woff'),
+         url('../fonts/ever_after_font/everafte-webfont.ttf') format('truetype'),
+         url('../fonts/ever_after_font/everafte-webfont.svg#ever_afterregular') format('svg');
+    
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+   font-family: ever_afterregular, Helvetica, Arial, sans-serif ;
+   text-transform: uppercase;
+}
+
+.container-padded{
+   padding-bottom:50px;
+}
+
+.navbar-custom{
+   background-color:#000 !important;
+   
+   height:100px;
+   padding-top:0px;
+}
+.navbar-brand{
+   padding: 5px;
+}
+ul.navbar-right{
+   padding-top:25px;
+}
+.navbar-toggle{
+   background-color:#191919;
+}
+.navbar-collapse{
+   background-color:black;
+}
+.navbar-custom a, .dropdown-menu > li > a{
+   color: #FFF;
+}
+/*Navbar item seleccionado-activo*/
+.navbar-custom .navbar-nav > .active {
+   background-color:#008CCF ;
+   border-radius:2px;
+}
+.navbar-custom .navbar-nav > .dropdown ul {
+   background-color:#4A4B4C;
+}
+
+.nav > li > a:hover, .nav > li > a:focus, .dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+   background-color:#4A4A4A;
+   border-radius:2px;
+   
+}
+
+#header a{
+   color:#FFFFFF;
+}
+
+/*Button properties*/
+.btn-primary{
+   background-color:#008CCF;
+   background-image:none;
+}
+.btn{
+   border:none;
+}
+
+#myCarousel{
+   padding:0px;
+}
+
+#myCarousel img{
+   width:100%;
+}
+
+.embed-responsive{
+   margin-bottom: 5px;
+   margin-top: 5px;
+}
+
+footer{
+   background-color: #000;
+   bottom:0;
+   clear:both;
+   min-height:250px;
+   margin-bottom:-10px;
+   
+}
+footer p, footer h3{
+   color:#E6E6E6;
+}
+
+.footer-above{
+   background-color: #00164A;
+   min-height:200px;
+   padding-top:20px;
+}
+.footer-below{
+   min-height:50px;
+   padding-top:15px;
+}
+.btn-twitter, .btn-facebook, .btn-pinterest{
+   background-color: white;
+}
+.btn-facebook:hover{
+   background-color: #3B5998;
+}
+.btn-twitter{
+   color: #55ACEE;
+}
+.btn-facebook{
+   color: #3B5998;
+}
+.btn-pinterest{
+   color: #CB2027;
+}
+/* Aliados */
+
+/* Nosotros */
+.content-padded{
+   padding-top:30px;
+   padding-bottom:30px;
+}
+.nosotros-padded{
+   padding-top:80px;
+   padding-bottom:0px;
+}
+/* Contactenos */
+#contactos{
+   padding-top:20px;
+   padding-bottom:20px;
+   min-height:240px;
+}
+#contact-container{
+   padding:40px 0px;
+}
+#contact-container button{
+   padding:10px 30px;
+}
+textarea{
+   resize:none;
+}
+#map-container{
+   height: 100%;
+}
+#map-canvas{
+ min-height:300px;
+ height:100% !important;
+}
+
+
+
+
+
